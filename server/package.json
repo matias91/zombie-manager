@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Calvo",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fs": "0.0.1-security",
+    "hapi": "^18.1.0",
+    "joi": "^13.7.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^5.12.0",
+    "mongoose-plugin-autoinc": "^1.1.9"
+  }
+}
