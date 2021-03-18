@@ -1,11 +1,10 @@
-## Available Scripts
+## Zombie Manager React Client
 
-In the project directory, you can run:
+### Setup Steps
 
-### `yarn start`
+In order to run the frontend client the only commands needed are:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* `yarn`
+* `yarn start`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+And that's it!

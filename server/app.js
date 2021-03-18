@@ -12,7 +12,7 @@ require('./config/database.config');
 const server = new Hapi.Server(config.local);
 
 (async () => {
-  let files = fs.readdirSync('server/lib/routes');
+  let files = fs.readdirSync('./lib/routes');
   files = files.filter(file => file.indexOf('.js') !== -1);
 
   try {
